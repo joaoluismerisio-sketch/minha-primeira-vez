@@ -10,7 +10,7 @@ int main() {
 
     numero = rand() % 10 + 1;
 
-    printf("Número aleatório gerado: %d\n", numero);
+    printf("Número aleatório Não gerado: %d\n", numero);
 
     return 0;
 }

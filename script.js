@@ -1,1 +1,16 @@
-console.log("abcdefghijklmnopqrstuvwxyz");
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int numero;
+
+   
+    srand(time(NULL));
+
+    numero = rand() % 10 + 1;
+
+    printf("Número aleatório gerado: %d\n", numero);
+
+    return 0;
+}

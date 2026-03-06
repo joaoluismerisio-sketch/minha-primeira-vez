@@ -8,7 +8,7 @@ int main() {
    
     srand(time(NULL));
 
-    numero = rand() % 10 + 1;
+    numero = rand() % 10 + 11;
 
     printf("Número aleatório gerado: %d\n", numero);
 
